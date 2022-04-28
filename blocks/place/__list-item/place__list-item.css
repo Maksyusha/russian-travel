@@ -1,0 +1,7 @@
+.place__list-item {
+  margin-bottom: 12px;
+}
+
+.place__list-item:last-child {
+  margin: 0;
+}

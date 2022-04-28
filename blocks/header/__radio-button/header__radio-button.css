@@ -1,0 +1,14 @@
+.header__radio-button {
+  width: 1px;
+  height: 1px;
+  position: absolute;
+  overflow: hidden;
+}
+
+.header__radio-button:checked + .header__lang-link {
+  text-decoration-line: underline;
+}
+
+.header__radio-button:disabled + .header__lang-link {
+  text-decoration: none;
+}

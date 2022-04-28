@@ -1,0 +1,36 @@
+.place {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 32px;
+}
+
+.place:first-child {
+  margin: 0;
+}
+
+@media screen and (min-width: 768px) {
+
+  .place {
+    margin-top: 73px;
+    gap: 48px 28px;
+  }
+
+}
+
+@media screen and (min-width: 1024px) {
+
+  .place {
+    margin-top: 80px;
+    gap: 48px 32px;
+  }
+
+}
+
+@media screen and (min-width: 1280px) {
+
+  .place {
+    gap: 48px 40px;
+  }
+
+}
