@@ -1,3 +1,4 @@
 .cover__content {
-  position: relative;
+  display: grid;
+  justify-items: center;
 }
