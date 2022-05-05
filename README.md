@@ -5,3 +5,5 @@
 В проекте используется/реализована:
 -Адаптивная верстка
 -flex и grid позиционировани
+
+Ссылка на git pages: https://maksyusha.github.io/russian-travel/
